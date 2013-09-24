@@ -1,0 +1,2 @@
+include ':Ivy'
+include ':libs:ViewPagerIndicator'

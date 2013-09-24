@@ -1,0 +1,21 @@
+
+bin
+gen
+build
+.DS_Store
+
+local.properties
+project.properties
+.classpath
+.settings/
+.loadpath
+.idea
+out
+*.iml
+
+# android / intellij / gradle
+.gradle/*
+.idea/*
+libs/*/.gradle/*
+libs/*/.idea/*
+libs/*/build
