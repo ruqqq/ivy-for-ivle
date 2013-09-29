@@ -166,7 +166,7 @@ public class TimetableStudent implements Parcelable {
     }
 
     public static void GetTimetable(final Context context, final String token, final DataHandler handler) {
-        final String url = IVLE.MyOrganizer.TIMETABLE_STUDENT_URL(token, "2013/2014", "1");
+        final String url = IVLE.MyOrganizer.TIMETABLE_STUDENT_URL(token, IvyApp.getAcadYear(), IvyApp.getAcadSemester());
 
         ArrayList<ArrayList<TimetableStudent>> timetableList = null;
         if (!IvyApp.hasInternet(context))
